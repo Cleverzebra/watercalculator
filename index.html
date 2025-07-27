@@ -1,151 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monhegan Island Water Conservation Guide & Calculator</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Monhegan Island Water Conservation Calculator</title>
+  <meta name="description" content="Compare standard and water-wise household usage for your Monhegan stay.">
+  <style>
+    /* --- Base Styles --- */
+    body {
+      background: #eaf3fa;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: #1d3040;
+      margin: 0; padding: 0;
+    }
+    .container {
+      max-width: 750px;
+      background: #fff;
+      margin: 2rem auto;
+      padding: 2rem 2.4rem 2.4rem 2.4rem;
+      border-radius: 16px;
+      box-shadow: 0 6px 36px #16507a20;
+    }
+    h1 {
+      color: #16507a;
+      font-size: 2rem;
+      margin-top: 0;
+    }
+    h2 {
+      color: #1971b6;
+      font-weight: 700;
+      margin-top: 2.5rem;
+      margin-bottom: .5rem;
+      font-size: 1.3rem;
+      letter-spacing: .03em;
+    }
+    .conservation-summary {
+      background: #f0f6fb;
+      border-left: 5px solid #1971b6;
+      padding: 1rem 1.5rem;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+    .slider-group {
+      display: flex;
+      align-items: center;
+      gap: 2.5rem;
+      margin-bottom: 1.8rem;
+      flex-wrap: wrap;
+    }
+    .slider-label {
+      font-weight: 500;
+      margin-right: 0.7em;
+      color: #254465;
+    }
+    input[type=range] {
+      accent-color: #1971b6;
+      width: 120px;
+      margin: 0 8px;
+      vertical-align: middle;
+    }
+    .slider-value {
+      font-weight: bold;
+      background: #dce9f6;
+      border-radius: 6px;
+      padding: 4px 10px;
+      color: #156497;
+      margin-left: 6px;
+      font-size: 1.05em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.6rem 0 2.6rem 0;
+      background: #fbfdfe;
+      border-radius: 7px;
+      overflow: hidden;
+      font-size: 1rem;
+    }
+    th, td {
+      padding: 0.8em 0.9em;
+      text-align: left;
+    }
+    th {
+      background: #e8f2fb;
+      font-weight: 600;
+    }
+    tr {
+      border-bottom: 1px solid #d0e2f1;
+    }
+    tr:last-child { border-bottom: none; }
+    /* Color highlights for usage columns */
+    .std { color: #9e3227; font-weight: 600;}
+    .consv { color: #257e3f; font-weight: 600;}
+    .save { color: #13669b; font-weight: 600;}
+    .strategy-keyword { font-weight: 650; color: #13669b;}
+    .impact-star { color: #f2b50f; font-size: 1.1em;}
+    /* Responsive */
+    @media (max-width: 750px) {
+      .container { padding: 1.2rem;}
+      h1 {font-size:1.3rem;}
+      th, td { font-size: 0.97rem;}
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <!-- Header Section -->
-        <header class="header">
-            <h1>Monhegan Island Water Conservation Guide & Calculator</h1>
-            <p class="subtitle">For the Well-being of Your Visit, Our Home, and the Island Community</p>
-        </header>
-
-        <!-- Interactive Calculator Section -->
-        <section class="card calculator-section">
-            <h2>Plan Your Water Usage</h2>
-            <div class="slider-container">
-                <div class="slider-group">
-                    <label for="guestSlider" class="form-label">
-                        Number of guests: <span id="guestValue" class="value-display">6</span>
-                    </label>
-                    <input type="range" id="guestSlider" min="1" max="8" value="6" class="slider">
-                </div>
-                <div class="slider-group">
-                    <label for="daysSlider" class="form-label">
-                        Length of stay: <span id="daysValue" class="value-display">7</span> days
-                    </label>
-                    <input type="range" id="daysSlider" min="1" max="30" value="7" class="slider">
-                </div>
-            </div>
-        </section>
-
-        <!-- Main Water Usage Comparison Table -->
-        <section class="card">
-            <h2>Water Usage Comparison</h2>
-            <div class="table-wrapper">
-                <table class="usage-table">
-                    <thead>
-                        <tr>
-                            <th>Activity</th>
-                            <th>Standard Usage<br><small>(gal/day)</small></th>
-                            <th>Conservation Usage<br><small>(gal/day)</small></th>
-                            <th>Savings<br><small>(gal/day)</small></th>
-                            <th>Total for Stay<br><small>(gallons)</small></th>
-                            <th>Conservation Method</th>
-                        </tr>
-                    </thead>
-                    <tbody id="usageTableBody">
-                        <!-- Table rows will be populated by JavaScript -->
-                    </tbody>
-                    <tfoot>
-                        <tr class="total-row">
-                            <th>TOTALS</th>
-                            <th id="standardTotal">--</th>
-                            <th id="conservationTotal">--</th>
-                            <th id="savingsTotal">--</th>
-                            <th id="stayTotal">--</th>
-                            <th></th>
-                        </tr>
-                    </tfoot>
-                </table>
-            </div>
-        </section>
-
-        <!-- Usage Projection Overview -->
-        <section class="card overview-section">
-            <h2>Usage Projection Overview</h2>
-            <div class="overview-grid">
-                <div class="overview-item standard">
-                    <h3>Standard Usage</h3>
-                    <div id="standardUsageTotal" class="metric-value">-- gal</div>
-                    <p class="metric-label">for entire stay</p>
-                </div>
-                <div class="overview-item conservation">
-                    <h3>With Conservation</h3>
-                    <div id="conservationUsageTotal" class="metric-value">-- gal</div>
-                    <p class="metric-label">for entire stay</p>
-                </div>
-                <div class="overview-item savings">
-                    <h3>Total Savings</h3>
-                    <div id="totalSavingsPercent" class="metric-value">--%</div>
-                    <div id="totalSavingsGallons" class="savings-gallons">-- gallons saved</div>
-                </div>
-            </div>
-        </section>
-
-        <!-- High-Impact Conservation Strategies -->
-        <section class="card strategies-section">
-            <h2>High-Impact Conservation Strategies</h2>
-            <div class="strategies-grid" id="strategiesGrid">
-                <!-- Strategy cards will be populated by JavaScript -->
-            </div>
-        </section>
-
-        <!-- Why Conservation Matters -->
-        <section class="card island-context">
-            <h2>Why Conservation Matters on Monhegan Island</h2>
-            <div class="context-content">
-                <div class="context-item">
-                    <h3>🏝️ Vulnerable Aquifer</h3>
-                    <p>Our single aquifer is just <strong>100 feet from the sea</strong> and only <strong>4 feet above sea level</strong>. There are no alternative water sources.</p>
-                </div>
-                <div class="context-item">
-                    <h3>🚰 Septic System Overload</h3>
-                    <p>The septic system was <strong>recently overloaded</strong>, requiring emergency intervention. Excessive water use threatens the entire island community.</p>
-                </div>
-                <div class="context-item">
-                    <h3>🌊 Climate Change Risks</h3>
-                    <p>Rising sea levels increase the risk of <strong>saltwater intrusion</strong> into our freshwater supply, making conservation critical for long-term sustainability.</p>
-                </div>
-                <div class="context-item">
-                    <h3>🤝 Community Protection</h3>
-                    <p>Your conservation efforts directly protect the health and well-being of the island community and preserve this unique ecosystem for future generations.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Additional Strategies & Reminders -->
-        <section class="card additional-strategies">
-            <h2>Additional Conservation Tips</h2>
-            <ul class="tips-list">
-                <li><strong>Leftover Water:</strong> Dump cooking water, ice cubes, and other leftover water in the back yard, never down the drain</li>
-                <li><strong>Hand-washing Laundry:</strong> If needed, wash small items by hand and hang to dry outside</li>
-                <li><strong>Report Leaks Immediately:</strong> Any running toilets, dripping faucets, or plumbing issues should be reported right away</li>
-                <li><strong>Emergency Contact:</strong> For urgent water or septic issues, contact your rental host immediately</li>
-            </ul>
-        </section>
-
-        <!-- Sharing Information -->
-        <section class="card sharing-section">
-            <h2>Share This Information</h2>
-            <p>Help spread water conservation awareness:</p>
-            <div class="sharing-options">
-                <button class="btn btn--secondary" onclick="printPage()">Print / Save as PDF</button>
-                <button class="btn btn--secondary" onclick="shareByEmail()">Share by Email</button>
-                <button class="btn btn--secondary" onclick="copyToClipboard()">Copy Link</button>
-            </div>
-            <p class="sharing-note"><small>This calculator works on all devices and browsers. Share the link or print for offline reference.</small></p>
-        </section>
-
-        <footer class="footer">
-            <p>Monhegan Island Water Conservation Initiative • Protecting Our Island Home</p>
-        </footer>
+<div class="container">
+  <h1>Monhegan Island Water Conservation Calculator</h1>
+  
+  <div class="conservation-summary">
+    <strong>Monhegan depends on a single, fragile aquifer for all its freshwater.</strong>
+    <ul style="margin:0.7em 0 0 1em;padding-left:1em;font-size:1em;">
+      <li>The aquifer is only 100 feet from the sea and sits 4 feet above sea level.</li>
+      <li><span class="strategy-keyword">Overuse</span> or pollution risks contamination and possible home closure.</li>
+      <li>Every drop you save keeps Monhegan healthy—for your stay, and future visitors!</li>
+    </ul>
+  </div>
+  
+  <form id="waterCalcForm" autocomplete="off" style="margin-bottom:1.2rem;">
+    <div class="slider-group">
+      <label class="slider-label">Number of guests:
+        <input type="range" min="1" max="8" value="6" id="guestSlider">
+        <span class="slider-value" id="guestCount">6</span>
+      </label>
+      <label class="slider-label">Length of stay (days):
+        <input type="range" min="1" max="30" value="7" id="staySlider">
+        <span class="slider-value" id="stayCount">7</span>
+      </label>
     </div>
+  </form>
 
-    <script src="app.js"></script>
+  <table>
+    <tr>
+      <th>Activity</th>
+      <th>Standard<br><span style="font-weight:400">(avg. use)</span></th>
+      <th>Conservation<br><span style="font-weight:400">(water-wise)</span></th>
+      <th>Savings</th>
+      <th>Conservation Method</th>
+    </tr>
+    <tr>
+      <td>Toilet Flushing</td>
+      <td class="std" id="standardToilet">111.0 gal/day</td>
+      <td class="consv" id="conservationToilet">66.6 gal/day</td>
+      <td class="save" id="toiletSavings">44.4 gal saved</td>
+      <td>
+        <span class="strategy-keyword">“If it’s yellow, let it mellow”</span>
+        <br>(skip flushing for liquid waste)
+      </td>
+    </tr>
+    <tr>
+      <td>Showering</td>
+      <td class="std" id="standardShower">103.2 gal/day</td>
+      <td class="consv" id="conservationShower">72.2 gal/day</td>
+      <td class="save" id="showerSavings">31.0 gal saved</td>
+      <td>
+        <span class="strategy-keyword">5-min showers + turn off while soaping</span>
+      </td>
+    </tr>
+    <tr>
+      <td>Dishwashing</td>
+      <td class="std" id="standardDish">66.0 gal/day</td>
+      <td class="consv" id="conservationDish">18.0 gal/day</td>
+      <td class="save" id="dishSavings">48.0 gal saved</td>
+      <td>
+        <span class="strategy-keyword">Fill sink basin, don’t let tap run.</span><br>
+        <span style="font-size:0.96em;">Dump all leftover water in <strong>back yard</strong>, not down the drain.</span>
+      </td>
+    </tr>
+    <tr>
+      <td>Bathroom Sinks</td>
+      <td class="std" id="standardSink">24.0 gal/day</td>
+      <td class="consv" id="conservationSink">3.0 gal/day</td>
+      <td class="save" id="sinkSavings">21.0 gal saved</td>
+      <td>
+        <span class="strategy-keyword">Turn off tap while brushing/soaping</span>
+      </td>
+    </tr>
+    <tr style="background:#f8f4e0;">
+      <th>TOTAL</th>
+      <th class="std" id="standardTotal">304.2 gal</th>
+      <th class="consv" id="conservationTotal">159.9 gal</th>
+      <th class="save" id="totalSavings">144.3 gal</th>
+      <th></th>
+    </tr>
+  </table>
+
+  <h2>Usage Projection Overview</h2>
+  <div style="background:#eaf7e5;border-left:5px solid #73c97b;padding:1.1em 1.6em;font-size:1.11rem;border-radius:10px;margin-bottom:1.2rem;">
+    <div>
+      <strong>For your stay:</strong>
+      <ul style="margin-top:0.6em;margin-bottom:0.6em">
+        <li><b>Standard (‹avg.›):</b> <span class="std" id="standardProjection">2130 gal</span> total</li>
+        <li><b>Conservation:</b> <span class="consv" id="conservationProjection">1120 gal</span> total</li>
+      </ul>
+      <b>Total savings for your stay:</b>
+      <span class="save" id="totalStaySavings">1010 gal</span>
+      <span style="color:#1971b6;font-weight:500;">— that's a huge impact!</span>
+    </div>
+  </div>
+
+  <h2>High-Impact Conservation Strategies</h2>
+  <ul style="list-style-type:'🌟 ';margin: 0 0.2em 1.3em 1.1em; font-size:1.09rem;">
+    <li><b>Fill the sink for washing dishes, never run the tap.<br><span style="color:#257e3f;">Dump all leftover water in the yard, NOT the drain.</span></b></li>
+    <li>Take 5-minute showers (or skip days); turn off water while soaping.</li>
+    <li>“If it’s yellow, let it mellow”—skip flushing liquid waste.</li>
+    <li>Turn off water while brushing teeth or shaving.</li>
+    <li>Do not use the washing machine (not available due to water risk).</li>
+    <li>Catch/report any leaks or constant water noises immediately.</li>
+  </ul>
+
+  <h2>Why Conservation Matters</h2>
+  <div style="font-size:1.09rem;background:#f4f8fa;border-radius:9px;padding:1.1rem 1.5rem;margin-top:0;">
+    <ul style="margin:0.2em 0 0.5em 1.4em;">
+      <li>
+        Monhegan’s aquifer is a <b>sole source</b>—if contaminated or over-pumped, the whole island is at risk.
+      </li>
+      <li>
+        The house’s septic system was recently <b>overloaded</b>; careful use protects your stay and the entire community.
+      </li>
+      <li>
+        Saltwater intrusion and climate change make every gallon count, especially during busy summer weeks.
+      </li>
+      <li>
+        <b>Your efforts keep Monhegan safe, clean, and open to all!</b>
+      </li>
+    </ul>
+  </div>
+  <div style="padding-top:2rem;color:#9ba3ad;text-align:center;font-size:0.97em;">
+    Made for Monhegan forever! — Share via email, link, or print for guests.
+  </div>
+</div>
+
+<!-- Link to your JS calculator (make sure this file is present in the same folder) -->
+<script src="app.js"></script>
+<script>
+  // Connect the new "stay" slider to the calculator app (add to your JS if not already present)
+  document.addEventListener('DOMContentLoaded', function() {
+    const staySlider = document.getElementById('staySlider');
+    const stayCount = document.getElementById('stayCount');
+    // Patch to let current app.js use 7 or 21 as number of days, update as you add full stay support
+    staySlider.addEventListener('input', function() {
+      stayCount.textContent = staySlider.value;
+      // FOR NOW: If your app.js doesn't support arbitrary stay length yet, 
+      // you could manually trigger 3 week total projections as a placeholder.
+      // Be sure to update app.js to use staySlider.value in all cumulative calcs!
+    });
+    // You may need to trigger your calculator's calculations when guests OR days sliders update, 
+    // so connect both guestSlider and staySlider to your calculation update function.
+  });
+</script>
 </body>
 </html>
