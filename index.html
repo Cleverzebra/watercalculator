@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monhegan Island Water Conservation Guide & Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>Monhegan Island Water Conservation Guide & Calculator</h1>
+            <p class="subtitle">For the Well-being of Your Visit, Our Home, and the Island Community</p>
+        </header>
+
+        <!-- Interactive Calculator Section -->
+        <section class="card calculator-section">
+            <h2>Plan Your Water Usage</h2>
+            <div class="slider-container">
+                <div class="slider-group">
+                    <label for="guestSlider" class="form-label">
+                        Number of guests: <span id="guestValue" class="value-display">6</span>
+                    </label>
+                    <input type="range" id="guestSlider" min="1" max="8" value="6" class="slider">
+                </div>
+                <div class="slider-group">
+                    <label for="daysSlider" class="form-label">
+                        Length of stay: <span id="daysValue" class="value-display">7</span> days
+                    </label>
+                    <input type="range" id="daysSlider" min="1" max="30" value="7" class="slider">
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Water Usage Comparison Table -->
+        <section class="card">
+            <h2>Water Usage Comparison</h2>
+            <div class="table-wrapper">
+                <table class="usage-table">
+                    <thead>
+                        <tr>
+                            <th>Activity</th>
+                            <th>Standard Usage<br><small>(gal/day)</small></th>
+                            <th>Conservation Usage<br><small>(gal/day)</small></th>
+                            <th>Savings<br><small>(gal/day)</small></th>
+                            <th>Total for Stay<br><small>(gallons)</small></th>
+                            <th>Conservation Method</th>
+                        </tr>
+                    </thead>
+                    <tbody id="usageTableBody">
+                        <!-- Table rows will be populated by JavaScript -->
+                    </tbody>
+                    <tfoot>
+                        <tr class="total-row">
+                            <th>TOTALS</th>
+                            <th id="standardTotal">--</th>
+                            <th id="conservationTotal">--</th>
+                            <th id="savingsTotal">--</th>
+                            <th id="stayTotal">--</th>
+                            <th></th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+
+        <!-- Usage Projection Overview -->
+        <section class="card overview-section">
+            <h2>Usage Projection Overview</h2>
+            <div class="overview-grid">
+                <div class="overview-item standard">
+                    <h3>Standard Usage</h3>
+                    <div id="standardUsageTotal" class="metric-value">-- gal</div>
+                    <p class="metric-label">for entire stay</p>
+                </div>
+                <div class="overview-item conservation">
+                    <h3>With Conservation</h3>
+                    <div id="conservationUsageTotal" class="metric-value">-- gal</div>
+                    <p class="metric-label">for entire stay</p>
+                </div>
+                <div class="overview-item savings">
+                    <h3>Total Savings</h3>
+                    <div id="totalSavingsPercent" class="metric-value">--%</div>
+                    <div id="totalSavingsGallons" class="savings-gallons">-- gallons saved</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- High-Impact Conservation Strategies -->
+        <section class="card strategies-section">
+            <h2>High-Impact Conservation Strategies</h2>
+            <div class="strategies-grid" id="strategiesGrid">
+                <!-- Strategy cards will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Why Conservation Matters -->
+        <section class="card island-context">
+            <h2>Why Conservation Matters on Monhegan Island</h2>
+            <div class="context-content">
+                <div class="context-item">
+                    <h3>🏝️ Vulnerable Aquifer</h3>
+                    <p>Our single aquifer is just <strong>100 feet from the sea</strong> and only <strong>4 feet above sea level</strong>. There are no alternative water sources.</p>
+                </div>
+                <div class="context-item">
+                    <h3>🚰 Septic System Overload</h3>
+                    <p>The septic system was <strong>recently overloaded</strong>, requiring emergency intervention. Excessive water use threatens the entire island community.</p>
+                </div>
+                <div class="context-item">
+                    <h3>🌊 Climate Change Risks</h3>
+                    <p>Rising sea levels increase the risk of <strong>saltwater intrusion</strong> into our freshwater supply, making conservation critical for long-term sustainability.</p>
+                </div>
+                <div class="context-item">
+                    <h3>🤝 Community Protection</h3>
+                    <p>Your conservation efforts directly protect the health and well-being of the island community and preserve this unique ecosystem for future generations.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Strategies & Reminders -->
+        <section class="card additional-strategies">
+            <h2>Additional Conservation Tips</h2>
+            <ul class="tips-list">
+                <li><strong>Leftover Water:</strong> Dump cooking water, ice cubes, and other leftover water in the back yard, never down the drain</li>
+                <li><strong>Hand-washing Laundry:</strong> If needed, wash small items by hand and hang to dry outside</li>
+                <li><strong>Report Leaks Immediately:</strong> Any running toilets, dripping faucets, or plumbing issues should be reported right away</li>
+                <li><strong>Emergency Contact:</strong> For urgent water or septic issues, contact your rental host immediately</li>
+            </ul>
+        </section>
+
+        <!-- Sharing Information -->
+        <section class="card sharing-section">
+            <h2>Share This Information</h2>
+            <p>Help spread water conservation awareness:</p>
+            <div class="sharing-options">
+                <button class="btn btn--secondary" onclick="printPage()">Print / Save as PDF</button>
+                <button class="btn btn--secondary" onclick="shareByEmail()">Share by Email</button>
+                <button class="btn btn--secondary" onclick="copyToClipboard()">Copy Link</button>
+            </div>
+            <p class="sharing-note"><small>This calculator works on all devices and browsers. Share the link or print for offline reference.</small></p>
+        </section>
+
+        <footer class="footer">
+            <p>Monhegan Island Water Conservation Initiative • Protecting Our Island Home</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
