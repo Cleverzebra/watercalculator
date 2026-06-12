@@ -22,10 +22,10 @@
 | Dog | Carrier | Policy # | Coverage | Deductible | Reimburse | Started |
 |-----|---------|----------|----------|-----------|-----------|---------|
 | **Taco** | **Spot Pet Insurance** | **SP8008764** | $5,000 / yr (accident & illness) | $250 | 90% | 2025-08-22 |
-| **Arlo** | **Spot Pet Insurance** 🟡 owner-confirmed | 🔴 policy # not located | — | — | — | — |
+| **Arlo** | **Spot Pet Insurance** 🟡 owner-confirmed | 🔵 on owner's computer | (share to record) | (share) | (share) | (share) |
 
 - Spot claims: submit itemized vet bill + records via app/online/mail/fax. 24/7 VetAccess helpline in Member Center. Pre-existing conditions excluded.
-- **Arlo IS insured with Spot** (owner-confirmed). 🔴 The policy document isn't in Drive yet — locate it and record Arlo's policy #, coverage, deductible, reimbursement %, and start date (check whether it's the same Spot account as Taco's, SP8008764, or a separate policy). Important to have on file before the neuter so the claim goes smoothly.
+- **Arlo IS insured with Spot** (owner-confirmed). The policy document is **saved on the owner's personal computer**, which this assistant cannot access. To fold it in, either (a) upload the file to this Drive folder, or (b) paste the policy #, coverage, deductible, reimbursement %, and start date — and whether it shares Taco's account (SP8008764). Have these details handy for the neuter claim.
 
 ## Emergency essentials (print & post)
 
