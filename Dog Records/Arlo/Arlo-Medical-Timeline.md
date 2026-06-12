@@ -42,11 +42,11 @@ Poodle 38% / Boxer 22.5% / Am. Bully 12.6% / Golden 12% / AmStaff 6.1% / APBT 5.
 ### 2025-11-25 — Lyme booster appointment (planned 08:00) 🔴
 On the calendar as "Arlo vet visit," 2025-11-25 08:00 (matches A3's booster plan). **No completion record located** — confirm it happened and file the record.
 
-### 2026-06-04 — ⭐ NEW vet: Banfield (Everett MA) — new-patient visit 🔴
-Calendar event: **"Arlo's appointment at Banfield," 2026-06-04 10:00**, 5 Mystic View Rd, Everett MA; **Dr. Lauren Kramer**, 617-387-1143; noted as a **new patient** visit. This is a *different practice* from Boston Veterinary Clinic. **No record of this visit is on file** — request the visit summary. Worth clarifying: is Banfield now Arlo's primary vet, a second opinion, or where the neuter will happen?
+### 2026-06-04 — Banfield (Everett MA) — new-patient visit (neuter pathway) 🔴
+Calendar event: **"Arlo's appointment at Banfield," 2026-06-04 10:00**, 5 Mystic View Rd, Everett MA; **Dr. Lauren Kramer**, 617-387-1143; **new-patient** visit. Per owner: **Boston Vet remains Arlo's primary vet; the neuter will be done at Banfield** — so this is the start of the neuter pathway. **No visit record on file** — request the visit summary / pre-op notes.
 
-### 2026 (TBD) — Neuter (incl. cryptorchid retrieval) 🔴
-Recommended by Boston Vet, timed to adult size. **An Asana task "Neuter appointment Arlo" exists** but no surgical record found — schedule/confirm (possibly via the new Banfield relationship).
+### 2026 (TBD) — Neuter at Banfield (incl. cryptorchid retrieval) 🔴
+Recommended by Boston Vet, timed to adult size; **to be performed at Banfield (Everett)**. Involves an abdominal incision to retrieve the undescended testicle. **An Asana task "Neuter appointment Arlo" exists**; no surgical record yet — confirm date and file the record afterward. Have Arlo's Spot insurance details ready for the claim.
 
 ---
 ### Vet appointments (from Google Calendar) ✅

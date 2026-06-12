@@ -5,7 +5,7 @@
 | Practice | Role | Address | Phone | Notes |
 |----------|------|---------|-------|-------|
 | **Boston Veterinary Clinic – Charlestown** | **Current vet (both dogs)** | 50 Hood Park Drive, Charlestown, MA 02129 | 857-362-8672 · charlestown@bostonveterinary.com | Drs. **M. Alexander Corder**, **Mary E. Rentfrow**. AAHA-accredited, Fear-Free. Online pharmacy: bostonveterinary.bluerabbitrx.com |
-| **Banfield Pet Hospital – Everett** 🟡 | Newer vet for Arlo (2026) | 5 Mystic View Rd, Everett, MA | 617-387-1143 | **Dr. Lauren Kramer**. Arlo new-patient visit 2026-06-04 (per Calendar). Clarify if this is now primary vs. Boston Vet. |
+| **Banfield Pet Hospital – Everett** | Where Arlo's **neuter** will be performed | 5 Mystic View Rd, Everett, MA | 617-387-1143 | **Dr. Lauren Kramer**. Arlo new-patient visit 2026-06-04. (Boston Vet remains Arlo's primary vet.) |
 | Porter Square Veterinarian | Taco's prior vet (2019–2021) | 360 Summer St, Somerville, MA 02144 | 617-628-5588 | Drs. Liz Johnson, Melissa Precopio |
 | Fraser Veterinary Services | Arlo adoption/health cert | (mobile, MA) | 508-907-1168 | Dr. Becky Fraser, DVM, CVA |
 | McMahen Veterinary Hospital | Arlo shelter origin (LA) | 1013 Reynolds Street, Springhill, LA 71075 | 318-539-5114 | Dr. Cindy Tripp / staff |
