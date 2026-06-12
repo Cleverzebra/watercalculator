@@ -49,6 +49,13 @@ Bichon Frise **51.3%** / Shih Tzu **48.7%**; predicted adult weight 13 lb; wolfi
 
 ---
 
+### Vet appointments (from Google Calendar) ✅
+- 2025-08-14 — "Cancel Taco food" (reminder/task)
+- 2025-09-05 15:00 — "vet visit taco" (the tick-borne-illness sick visit)
+- *(No calendar entry found for the 2026-03-13 UTI visit, though the invoice confirms it occurred.)*
+
+---
+
 ## Patterns & watch-items
 - **Tick-borne disease** (Sept 2025): living in MA (high tick area). If stiffness/lethargy/lameness recur → re-test tick panel; ask about Anaplasma vs Lyme distinction and whether a follow-up titer/quant was done.
 - **Urinary** (Mar 2026): if straining, frequent/small urinations, accidents, or blood → recheck; ask about urine culture and whether stones were ruled out (DNA bladder-stone risk is *clear*, which is reassuring).

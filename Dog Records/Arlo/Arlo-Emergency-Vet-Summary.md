@@ -12,8 +12,9 @@
 | **Weight** | Growing fast: 12.2 lb (9/4/25) → 26 lb (10/17/25) → 27.2 lb (10/27/25). **DNA predicts ~74 lb adult.** |
 | **Microchip** | 933000230061127 |
 | **Regular vet** | Boston Veterinary Clinic – Charlestown · 50 Hood Park Dr, Charlestown MA 02129 · 857-362-8672 |
+| **Newer vet (2026)** | 🟡 Banfield Pet Hospital, 5 Mystic View Rd, Everett MA · Dr. Lauren Kramer · 617-387-1143 — **new-patient** visit 2026-06-04 (records not yet on file 🔴) |
 | **Origin** | LAMA Animal Rescue (Springhill, LA) → Save A Dog (Sudbury, MA), adopted Oct 2025 |
-| **Insurance** | 🔴 none located |
+| **Insurance** | **Spot Pet Insurance** 🟡 owner-confirmed (policy document not yet located in Drive 🔴 — get policy #) |
 
 ### Known diagnoses / medical history
 - **Unilateral cryptorchidism** ✅ — only one testicle descended. Retained testicle carries higher later cancer risk; **neuter (with abdominal exploration) recommended** — *still to be scheduled* 🔴.

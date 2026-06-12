@@ -5,6 +5,7 @@
 | Practice | Role | Address | Phone | Notes |
 |----------|------|---------|-------|-------|
 | **Boston Veterinary Clinic – Charlestown** | **Current vet (both dogs)** | 50 Hood Park Drive, Charlestown, MA 02129 | 857-362-8672 · charlestown@bostonveterinary.com | Drs. **M. Alexander Corder**, **Mary E. Rentfrow**. AAHA-accredited, Fear-Free. Online pharmacy: bostonveterinary.bluerabbitrx.com |
+| **Banfield Pet Hospital – Everett** 🟡 | Newer vet for Arlo (2026) | 5 Mystic View Rd, Everett, MA | 617-387-1143 | **Dr. Lauren Kramer**. Arlo new-patient visit 2026-06-04 (per Calendar). Clarify if this is now primary vs. Boston Vet. |
 | Porter Square Veterinarian | Taco's prior vet (2019–2021) | 360 Summer St, Somerville, MA 02144 | 617-628-5588 | Drs. Liz Johnson, Melissa Precopio |
 | Fraser Veterinary Services | Arlo adoption/health cert | (mobile, MA) | 508-907-1168 | Dr. Becky Fraser, DVM, CVA |
 | McMahen Veterinary Hospital | Arlo shelter origin (LA) | 1013 Reynolds Street, Springhill, LA 71075 | 318-539-5114 | Dr. Cindy Tripp / staff |
@@ -21,10 +22,10 @@
 | Dog | Carrier | Policy # | Coverage | Deductible | Reimburse | Started |
 |-----|---------|----------|----------|-----------|-----------|---------|
 | **Taco** | **Spot Pet Insurance** | **SP8008764** | $5,000 / yr (accident & illness) | $250 | 90% | 2025-08-22 |
-| Arlo | 🔴 none located | — | — | — | — | — |
+| **Arlo** | **Spot Pet Insurance** 🟡 owner-confirmed | 🔴 policy # not located | — | — | — | — |
 
 - Spot claims: submit itemized vet bill + records via app/online/mail/fax. 24/7 VetAccess helpline in Member Center. Pre-existing conditions excluded.
-- **Action 🔴:** Consider insuring **Arlo** *before* the cryptorchid neuter and while young/healthy (pre-existing exclusions matter). Get the Spot member portal link for Taco saved.
+- **Arlo IS insured with Spot** (owner-confirmed). 🔴 The policy document isn't in Drive yet — locate it and record Arlo's policy #, coverage, deductible, reimbursement %, and start date (check whether it's the same Spot account as Taco's, SP8008764, or a separate policy). Important to have on file before the neuter so the claim goes smoothly.
 
 ## Emergency essentials (print & post)
 

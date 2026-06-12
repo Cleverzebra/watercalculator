@@ -20,7 +20,8 @@ Likely-missing or not-yet-located documents, based on what *is* in the archive. 
 - [ ] **Heartworm retest result** (~6 months after LA arrival; spring 2026).
 - [ ] **Boston Vet fecal result** (if a sample was submitted after the Oct diarrhea).
 - [ ] **Microchip registration transfer** (933000230061127 → Elizabeth Norman, current address).
-- [ ] **Pet insurance** for Arlo (none on file) — consider before neuter.
+- [ ] **Spot insurance policy document for Arlo** — Arlo IS insured with Spot (owner-confirmed) but the policy isn't in Drive; record his policy #, terms, and start date (and whether it shares Taco's account SP8008764).
+- [ ] **Banfield (Everett) visit record, 2026-06-04** — new-patient visit with Dr. Lauren Kramer; request the visit summary and clarify Banfield's role vs. Boston Vet.
 - [ ] Itemized Boston Vet invoice for the 10/17 wellness visit (have the visit note; the Lyme-visit invoice #743867 is filed).
 
 ## Both / household

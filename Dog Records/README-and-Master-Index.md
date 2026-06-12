@@ -10,6 +10,11 @@ folder contains only newly-created summary documents.
 > ⚠️ **Medical disclaimer:** These documents organize and summarize existing records. They are
 > **not** veterinary advice and contain **no new diagnoses**. Always confirm with your veterinarian.
 
+> 🔄 **Update 2026-06-12 (second pass):** Added Google **Calendar** vet appointments to the timelines;
+> recorded **Arlo's Spot insurance** (owner-confirmed); flagged a **new vet — Banfield, Everett (Dr.
+> Lauren Kramer), visit 2026-06-04**; **opened the photo zips** and filed a clear **ID photo** into
+> each dog's folder; and surfaced a **third dog, "Bubbles"** (see `Other-Dogs-Found-Bubbles.md`).
+
 ---
 
 ## How this folder is organized
@@ -99,7 +104,7 @@ Links open the original files in Google Drive. "Dup" = duplicate copy of the sam
 | Adult weight | ~10 lb (DNA predicts 13 lb) | DNA predicts **~74 lb** |
 | Microchip | 981020033187631 | 933000230061127 |
 | Current vet | Boston Veterinary Clinic – Charlestown | Boston Veterinary Clinic – Charlestown |
-| Insurance | Spot #SP8008764 | 🔴 none found |
+| Insurance | Spot #SP8008764 | **Spot** 🟡 owner-confirmed (policy # TBD) |
 | Top open items | Rabies currency; tick-disease lab result; spay status | Neuter (cryptorchid); Lyme booster; Ehrlichia history; HW retest |
 
 See **Unresolved-Questions-and-Needs-Review.md** and **Missing-Records-Checklist.md** for the full follow-up list.

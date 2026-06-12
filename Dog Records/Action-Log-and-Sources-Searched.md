@@ -30,6 +30,14 @@
 - Confidence labeled throughout (✅ / 🟡 / 🔴).
 - No new medical diagnoses introduced; everything traces to a cited source doc.
 
+## Second pass — 2026-06-12
+- Expanded **Google Calendar**: found vet appointments (Taco 9/5/25; Arlo 10/17, 10/27, 11/25/25, and **6/4/26 Banfield, Everett — Dr. Lauren Kramer**). Folded into timelines.
+- **Arlo insurance corrected** to **Spot** (owner-confirmed); policy doc still to be located.
+- **Opened both photo zips** (downloaded, base64-decoded, unzipped): Arlo close-up viewed and a clear **ID photo copied into the Arlo Drive folder**; Taco IMG_3599 is an Apple Live Photo (HEIC+MOV) — copied into the Taco Drive folder (HEIC not renderable here).
+- Discovered a **third dog, "Bubbles"** (red Goldendoodle, DOB 2017, Porter Square Vet, 2018–2021) — surfaced for a scope decision (`Other-Dogs-Found-Bubbles.md`), not yet processed.
+- Re-searched Gmail for a Spot policy / Arlo docs — none surfaced (inbox is overwhelmingly legal/business mail).
+- Photos filed via Drive copy (originals untouched).
+
 ## Suggested next run
 - Expand Calendar `.ics` files for exact appointment timestamps.
 - Re-search Gmail with sender-specific queries (`from:saveadog@saveadog.org`, `from:*@bostonveterinary.com`, `from:*@spotpet*`) if those senders exist.

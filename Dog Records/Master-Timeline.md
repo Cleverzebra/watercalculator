@@ -25,9 +25,12 @@ Confidence: ✅ confirmed on a record · 🟡 owner-reported/inferred · 🔴 ne
 | 2025-10-27 | Arlo | Lyme vaccine #1 (5 mo, 27.2 lb) | Vaccine | Boston Vet, Dr. Corder | Healthy; stool resolved | **Lyme (Vanguard) #1**, left hind | Well tolerated | A3, A4 |
 | 2025-10-31 | Taco | Embark DNA result | — | Embark | Bichon/Shih Tzu; **DM carrier**; copper/ALT notes | — | — | T9 |
 | 2025-10-31 | Arlo | Embark DNA result | — | Embark | Poodle/Boxer/Bully/Golden; predicted **74 lb**; **Ichthyosis carrier** | — | — | A5 |
-| 2025-11-25 | Arlo | **Lyme booster appt (planned 08:00)** 🔴 | Vaccine series | Boston Vet | — | Lyme booster (expected) | ❓ no record yet | A3 |
+| 2025-11-25 | Arlo | **Lyme booster appt (08:00)** 🔴 | Vaccine series | Boston Vet (on calendar) | — | Lyme booster (expected) | ❓ no record yet | A3, Cal |
 | **2026-03-13** | **Taco** | **Sick visit — frequent urination** | Frequent urination / possible **UTI** 🟡 | Boston Vet, Dr. Corder | In-clinic **Sedivue urinalysis** ✅ | **Clavamox** 62.5 mg ×28 | Treated | T10 |
-| 2026 (TBD) | Arlo | **Neuter** (incl. abdominal cryptorchid) 🔴 | Planned | Boston Vet | — | Surgery | ❓ pending (Asana task exists) | A2 |
+| **2026-06-04** | **Arlo** | **NEW vet — Banfield (Everett MA)** 🔴 | New-patient visit | Banfield, **Dr. Lauren Kramer**, 617-387-1143 | — | — | ❓ records not on file | Cal |
+| 2026 (TBD) | Arlo | **Neuter** (incl. abdominal cryptorchid) 🔴 | Planned | Boston Vet / Banfield? | — | Surgery | ❓ pending (Asana task exists) | A2 |
+
+> **Cal** = confirmed via Google Calendar. Calendar vet appointments on file: Taco 2025-09-05; Arlo 2025-10-17, 2025-10-27, 2025-11-25, **2026-06-04 (Banfield)**.
 
 **Reading the arc:**
 - **Taco** is a senior small-breed dog whose 2025–2026 activity centers on (a) a **tick-borne illness episode** in Sept 2025 treated with doxycycline + pain control, and (b) a **urinary episode** in March 2026 treated with Clavamox. Watch for recurrence of either.

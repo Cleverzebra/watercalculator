@@ -18,6 +18,9 @@ Two parts: (A) **data conflicts** to verify, and (B) **questions to bring to the
 | 8 | **Arlo Lyme booster** | Booked 2025-11-25; no completion record | Confirm given; file record |
 | 9 | **Arlo neuter** | Recommended; Asana task exists; no surgical record | Schedule/confirm; file record |
 | 10 | **Vaccine philosophy** | Rescue (Dodds/minimal; avoid Lyme/Bordetella/lepto + Bravecto/Nexgard) vs Boston Vet (do Lyme + Nexgard) | **Owner decision** — discuss explicitly with Boston Vet |
+| 11 | **Third dog "Bubbles"** | Records found for a red Goldendoodle (DOB 2017) owned by you; likely the dark dog in Arlo's photo. Out of original scope. | **Decide:** include Bubbles in the system? (See `Other-Dogs-Found-Bubbles.md`) |
+| 12 | **Arlo's vet — Banfield vs Boston Vet** | New-patient Banfield visit 2026-06-04 (Dr. Kramer, Everett) — different practice from Boston Vet | Clarify which is Arlo's primary vet and where the neuter will be done |
+| 13 | **Arlo's Spot policy details** | Arlo insured with Spot (owner-confirmed) but policy # / terms not in records | Locate policy doc; record #, coverage, start date; same account as Taco's? |
 
 ---
 

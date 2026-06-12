@@ -39,11 +39,21 @@ Summary of all shelter care; **Drontal Plus** dewormer 10/1. Includes **Dr. Jean
 ### 2025-10-31 — Embark DNA report ✅
 Poodle 38% / Boxer 22.5% / Am. Bully 12.6% / Golden 12% / AmStaff 6.1% / APBT 5.5% / Bulldog 3.3%. **Predicted adult weight ~74 lb.** Health: **Ichthyosis (ICH1) carrier — 1 copy**; 273 conditions clear (incl. DM clear). *Source: A5.*
 
-### 2025-11-25 — Lyme booster appointment (planned) 🔴
-Scheduled per A3. **No record of completion located** — confirm it happened and file the record.
+### 2025-11-25 — Lyme booster appointment (planned 08:00) 🔴
+On the calendar as "Arlo vet visit," 2025-11-25 08:00 (matches A3's booster plan). **No completion record located** — confirm it happened and file the record.
+
+### 2026-06-04 — ⭐ NEW vet: Banfield (Everett MA) — new-patient visit 🔴
+Calendar event: **"Arlo's appointment at Banfield," 2026-06-04 10:00**, 5 Mystic View Rd, Everett MA; **Dr. Lauren Kramer**, 617-387-1143; noted as a **new patient** visit. This is a *different practice* from Boston Veterinary Clinic. **No record of this visit is on file** — request the visit summary. Worth clarifying: is Banfield now Arlo's primary vet, a second opinion, or where the neuter will happen?
 
 ### 2026 (TBD) — Neuter (incl. cryptorchid retrieval) 🔴
-Recommended by Boston Vet, timed to adult size. **An Asana task "Neuter appointment Arlo" exists** but no surgical record found — schedule/confirm.
+Recommended by Boston Vet, timed to adult size. **An Asana task "Neuter appointment Arlo" exists** but no surgical record found — schedule/confirm (possibly via the new Banfield relationship).
+
+---
+### Vet appointments (from Google Calendar) ✅
+- 2025-10-17 10:30 — Arlo vet visit (Boston Vet wellness)
+- 2025-10-27 15:15 — Arlo vet visit (Boston Vet, Lyme #1)
+- 2025-11-25 08:00 — Arlo vet visit (Boston Vet, Lyme booster — confirm done)
+- **2026-06-04 10:00 — Arlo's appointment at Banfield (Everett MA, Dr. Lauren Kramer) — NEW**
 
 ---
 
