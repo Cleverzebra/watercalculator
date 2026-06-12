@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Babysitting by Ashton — Printable Flyer (Tear-off Tabs)</title>
+  <style>
+    @page { size: letter; margin: 0.5in; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+      color: #2d2d2d;
+      background: #fff;
+      padding: 24px;
+    }
+    .sheet {
+      max-width: 7.5in;
+      margin: 0 auto;
+      border: 2px dashed #bbb;
+      border-radius: 8px;
+      padding: 28px 32px;
+    }
+    header { text-align: center; margin-bottom: 16px; }
+    header h1 { font-size: 2.4rem; color: #2a6f8e; }
+    header .tag {
+      font-size: 1.2rem;
+      color: #f4a259;
+      font-weight: 700;
+      margin-top: 4px;
+    }
+    header .sub { font-size: 1rem; color: #555; margin-top: 6px; }
+    .body { font-size: 1.05rem; line-height: 1.55; margin: 16px 0; }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 24px;
+      margin: 14px 0;
+      list-style: none;
+    }
+    .features li { width: calc(50% - 12px); padding-left: 22px; position: relative; }
+    .features li::before { content: "✓"; position: absolute; left: 0; color: #f4a259; font-weight: 700; }
+    .rate { text-align: center; font-size: 1.3rem; font-weight: 700; color: #2a6f8e; margin: 10px 0 4px; }
+
+    /* Tear-off tabs */
+    .tabs {
+      display: flex;
+      border-top: 2px solid #999;
+      margin-top: 20px;
+    }
+    .tab {
+      flex: 1;
+      border-left: 1px dashed #999;
+      text-align: center;
+      padding: 10px 2px;
+      font-size: 0.72rem;
+      line-height: 1.25;
+      /* rotate text vertical so tabs are narrow & many fit */
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      height: 150px;
+    }
+    .tab:first-child { border-left: none; }
+    .tab strong { color: #2a6f8e; }
+    .tabs-label {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #888;
+      margin-top: 8px;
+      font-style: italic;
+    }
+    @media print {
+      .sheet { border-color: #999; }
+      body { padding: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="sheet">
+    <header>
+      <h1>Babysitting by Ashton</h1>
+      <div class="tag">Charlestown, MA</div>
+      <div class="sub">Reliable, caring, CPR &amp; First Aid certified</div>
+    </header>
+
+    <p class="body">
+      Friendly, dependable babysitter available for daytime, evenings, and
+      weekends. Experience with infants through school-age kids — meals,
+      bedtime routines, homework help, and lots of fun. Remote/virtual
+      sessions available when needed. References on request.
+    </p>
+
+    <ul class="features">
+      <li>Infants to school-age</li>
+      <li>Evenings &amp; weekends</li>
+      <li>Homework help</li>
+      <li>Meals &amp; bedtime routines</li>
+      <li>Non-smoker, reliable transport</li>
+      <li>Remote / virtual option</li>
+    </ul>
+
+    <div class="rate">Rate: $XX / hour &nbsp;•&nbsp; References available</div>
+
+    <div class="tabs-label">✂ Tear off a tab with my number below ✂</div>
+    <div class="tabs">
+      <div class="tab"><strong>Ashton</strong><br>(000) 000-0000</div>
+      <div class="tab"><strong>Ashton</strong><br>(000) 000-0000</div>
+      <div class="tab"><strong>Ashton</strong><br>(000) 000-0000</div>
+      <div class="tab"><strong>Ashton</strong><br>(000) 000-0000</div>
+      <div class="tab"><strong>Ashton</strong><br>(000) 000-0000</div>
+      <div class="tab"><strong>Ashton</strong><br>(000) 000-0000</div>
+      <div class="tab"><strong>Ashton</strong><br>(000) 000-0000</div>
+      <div class="tab"><strong>Ashton</strong><br>(000) 000-0000</div>
+      <div class="tab"><strong>Ashton</strong><br>(000) 000-0000</div>
+      <div class="tab"><strong>Ashton</strong><br>(000) 000-0000</div>
+    </div>
+  </div>
+</body>
+</html>
