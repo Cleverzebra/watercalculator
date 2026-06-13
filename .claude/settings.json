@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__c28845cd-c06b-46a2-bfd0-5d29a756f982__read_file_content",
+      "mcp__c28845cd-c06b-46a2-bfd0-5d29a756f982__search_files",
+      "mcp__c28845cd-c06b-46a2-bfd0-5d29a756f982__get_file_metadata",
+      "mcp__c28845cd-c06b-46a2-bfd0-5d29a756f982__list_recent_files",
+      "mcp__c28845cd-c06b-46a2-bfd0-5d29a756f982__download_file_content",
+      "mcp__8fa64c01-a1d3-4ade-911c-f0032cc525a6__search_threads",
+      "mcp__3fc83517-9bde-47a6-b9c9-55acddf14866__list_events"
+    ]
+  }
+}
