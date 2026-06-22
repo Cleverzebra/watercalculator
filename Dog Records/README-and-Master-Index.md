@@ -2,6 +2,10 @@
 
 **Owner:** Elizabeth Norman · **Compiled:** 2026-06-12 · **Maintained by:** Dog Records Admin Agent
 
+> ⭐ **New here? Open `HOME-BASE-and-Agent-Setup.md` first** — it shows how to chat with each
+> dog's agent (and pin them on your claude.ai home screen) and links to everything. In Google
+> Drive the same doc is **"⭐ HOME BASE — Dog Records & Agents (OPEN ME FIRST)."**
+
 This is the master, consultable record system for **Taco** and **Arlo**, assembled from all
 sources reachable in this environment (primarily Google Drive). **No original file was moved,
 renamed, deleted, or overwritten.** Everything below *links to* the originals in place; this
