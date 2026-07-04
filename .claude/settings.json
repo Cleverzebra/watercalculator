@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Asana__get_me",
+      "mcp__Asana__get_project",
+      "mcp__Asana__get_projects",
+      "mcp__Asana__get_task",
+      "mcp__Asana__get_tasks",
+      "mcp__Asana__get_my_tasks",
+      "mcp__Asana__get_status_overview",
+      "mcp__Asana__search_tasks",
+      "mcp__005ee16c-4345-4ad5-bae3-c75c0c98acc9__get_me",
+      "mcp__005ee16c-4345-4ad5-bae3-c75c0c98acc9__get_project",
+      "mcp__005ee16c-4345-4ad5-bae3-c75c0c98acc9__get_projects",
+      "mcp__005ee16c-4345-4ad5-bae3-c75c0c98acc9__get_task",
+      "mcp__005ee16c-4345-4ad5-bae3-c75c0c98acc9__get_tasks",
+      "mcp__005ee16c-4345-4ad5-bae3-c75c0c98acc9__get_my_tasks",
+      "mcp__005ee16c-4345-4ad5-bae3-c75c0c98acc9__get_status_overview",
+      "mcp__005ee16c-4345-4ad5-bae3-c75c0c98acc9__search_tasks"
+    ]
+  }
+}
