@@ -1,4 +1,4 @@
-# The Local's Guide to Greater Boston
+# Boston Area Stuff to Do
 
 A locals-first resource library of fun things to do in the Greater Boston area —
 built for people who live here (teens and adults), skewed toward **free-to-moderate**
