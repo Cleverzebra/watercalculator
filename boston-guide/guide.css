@@ -129,12 +129,16 @@ h3 { font-family: var(--serif); color: var(--navy); font-size: 1.25rem; margin: 
 .tag.season { background: var(--teal-soft); color: var(--teal); border-color: transparent; }
 .tag.transit{ background:#efe7f7; color:#7a4fb0; border-color:#ddccf0; }
 .tag.weekday{ background:#eef6f2; color:#2c7a63; border-color:#cbe6db; }
+.tag.dog    { background:#f3e9dc; color:#7d5a2f; border-color:#e2cfae; }
+.tag.date   { background:#fdeaee; color:#c04a6b; border-color:#f5c9d4; }
 @media (prefers-color-scheme: dark){
   .tag.free{background:#14331f;color:#7fd6a0;border-color:#1f5236}
   .tag.cheap{background:#132a44;color:#8fb8ec;border-color:#244163}
   .tag.mod{background:#3a2a12;color:#e2b06a;border-color:#5a411c}
   .tag.transit{background:#2a1f3d;color:#c3a6ea;border-color:#41335e}
   .tag.weekday{background:#12312a;color:#78cbb2;border-color:#1f4a40}
+  .tag.dog{background:#33281a;color:#d9b47f;border-color:#4f3f28}
+  .tag.date{background:#3a1a24;color:#eb9bb4;border-color:#57293a}
 }
 
 /* ---------- Callout ---------- */
@@ -203,6 +207,41 @@ footer a { color: var(--teal); }
 ul.clean { list-style: none; padding-left: 0; }
 ul.clean li { padding: 8px 0; border-bottom: 1px dashed var(--line); }
 .updated { font-size:.78rem; color: var(--ink-soft); }
+
+/* ---------- "Who this is for" profile cards ---------- */
+.profiles { display:grid; grid-template-columns: repeat(4,1fr); gap:16px; margin-top:24px; }
+@media (max-width: 980px){ .profiles { grid-template-columns:1fr 1fr; } }
+@media (max-width: 560px){ .profiles { grid-template-columns:1fr; } }
+.profile { background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+  padding:20px 18px; box-shadow:var(--shadow); border-top:4px solid var(--teal); }
+.profile.p-you  { border-top-color: var(--teal); }
+.profile.p-teen { border-top-color: #c04a6b; }
+.profile.p-dog  { border-top-color: #a97b3f; }
+.profile.p-all  { border-top-color: var(--gold); }
+.profile .pic { font-size:1.7rem; display:block; margin-bottom:8px; }
+.profile h3 { margin:0 0 6px; font-size:1.08rem; }
+.profile p { margin:0 0 10px; font-size:.87rem; color:var(--ink-soft); }
+.profile ul { margin:0; padding-left:16px; font-size:.85rem; }
+.profile li { margin:4px 0; }
+
+/* ---------- Playbooks (ready-made plans) ---------- */
+.playbooks { display:grid; grid-template-columns: repeat(3,1fr); gap:16px; margin-top:22px; }
+@media (max-width: 980px){ .playbooks { grid-template-columns:1fr 1fr; } }
+@media (max-width: 620px){ .playbooks { grid-template-columns:1fr; } }
+.playbook { background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+  padding:18px; box-shadow:var(--shadow); position:relative; }
+.playbook .pbwho { font-size:.7rem; font-weight:700; text-transform:uppercase; letter-spacing:.12em;
+  color:var(--coral); margin:0 0 4px; }
+.playbook h4 { margin:0 0 10px; font-family:var(--serif); color:var(--navy); font-size:1.12rem; }
+.playbook ol { margin:0; padding-left:18px; font-size:.86rem; }
+.playbook ol li { margin:6px 0; }
+.playbook .pbcost { display:inline-block; margin-top:12px; font-size:.74rem; font-weight:700;
+  background:var(--teal-soft); color:var(--teal); border-radius:999px; padding:3px 10px; }
+
+/* ---------- "This month" highlight on the year calendar ---------- */
+.mcard.now { border-color: var(--coral); box-shadow: 0 0 0 2px color-mix(in srgb, var(--coral) 35%, transparent), var(--shadow); }
+.mcard.now h4::after { content:"← this month"; font-family:var(--sans); font-size:.64rem;
+  font-weight:700; color:var(--coral); margin-left:8px; letter-spacing:.06em; }
 
 @media print {
   .topbar, footer .backlink { display:none; }
