@@ -1,32 +1,34 @@
-# Boston Area Stuff to Do
+# Boston Area Stuff to Do — custom edition
 
-A locals-first resource library of fun things to do in the Greater Boston area —
-built for people who live here (teens and adults), skewed toward **free-to-moderate**
-prices and **hidden gems over tourist traps**, sorted by **season** and by
-**weekday vs. weekend**.
+A personalized Greater Boston field guide built for one household: a vegetarian
+family with a pickleball habit, a taste for flea markets and hidden rooftops,
+a dog who expects weekend plans, and a 17-year-old whose date nights run on a
+teen budget. Free-to-moderate prices, hidden gems over tourist traps, organized
+by season and weekday-vs-weekend.
 
-Open **`index.html`** in a browser to start. It's a small static site (HTML + one
-shared stylesheet, no build step, no dependencies) — you can also host it via GitHub
-Pages.
+Open **`index.html`** in a browser to start. It's a small static site (HTML +
+one shared stylesheet, no build step, no dependencies) — it also hosts fine on
+GitHub Pages.
 
-## The six guides
+## The eight guides
 
 | File | Covers |
 |------|--------|
-| `index.html` | Library home + how-to-use + year-at-a-glance calendar |
-| `outdoor.html` | Outdoor recreation + **free pickleball courts**, trails, rail-trails, paddling, swimming ponds, birding, by season |
-| `beaches.html` | Nearby beaches with parking, resident stickers, transit, amenities — North Shore to RI |
-| `daytrips.html` | Day trips & local towns worth visiting, with honest drive times & transit |
-| `restaurants.html` | One consolidated restaurant guide (~85 spots, all verified open for 2026) |
-| `events.html` | State fairs, farmers markets, festivals, flea & craft markets, thrift/vintage + month-by-month calendar |
-| `indoor.html` | Rainy-day & seasonal: quirky/free museums, library pass hacks, candlepin, barcades, indie cinemas, cheap live music, and a season-by-season calendar |
+| `index.html` | Home: who it's for, ready-made playbooks, year-at-a-glance calendar |
+| `outdoor.html` | Outdoor recreation + **free pickleball courts**, trails, paddling, swimming ponds, hidden rooftop gardens & skyline views |
+| `beaches.html` | Beaches with parking, stickers, transit, amenities — plus when dogs are allowed on the sand |
+| `daytrips.html` | Day trips across seven regions, each town with a **verified vegetarian lunch** |
+| `restaurants.html` | The all-vegetarian restaurant guide: fully veg/vegan spots, veg-royalty omnivore rooms, date tables, sweets, a $12 hall of fame |
+| `dates.html` | **Cheap Dates** for the teens: free / under-$25 / under-$60, all all-ages-verified, with age-rule fine print |
+| `dogs.html` | **Dog Days**: off-leash spots, dog beaches by season, dog-welcome patios, day trips, MBTA pet rules, emergency vets |
+| `events.html` | Fairs, farmers markets, festivals, flea & craft markets, thrifting + month-by-month calendar |
+| `indoor.html` | Rainy-day: quirky/free museums, candlepin, indie cinemas, cheap live music, season-by-season calendar |
 
 ## Notes on the research
 
-- Compiled **July 2026** from official town/state/DCR/Trustees/MBTA sources and
-  organizer sites, cross-checked across multiple sources (not a single calendar).
-- **Verify before you go.** Fees, hours, reservation apps, and event dates change
-  seasonally. Every entry links its official source; closures and unconfirmed items
-  are flagged inline in the guides.
-- Closed businesses were deliberately excluded or flagged (e.g., the guides note
-  where a commonly-listed spot has actually shut down).
+- Compiled **July 2026** from official town/state/DCR/Trustees/MBTA/organizer
+  sources, cross-checked across multiple sources — including age policies for
+  every venue in the dates guide and dog policies for every spot in the dog guide.
+- **Verify before you go.** Fees, hours, and dates change seasonally; every
+  entry links its official source, and closures are flagged inline (this
+  edition caught several 2025–26 closures other guides still list).
