@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashton — Trusted Babysitter in Charlestown</title>
+  <style>
+    :root {
+      --primary: #2a6f8e;
+      --accent: #f4a259;
+      --bg: #fdf6ec;
+      --text: #2d2d2d;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 24px;
+    }
+    .flyer {
+      max-width: 640px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+      overflow: hidden;
+    }
+    header {
+      background: var(--primary);
+      color: #fff;
+      text-align: center;
+      padding: 36px 24px;
+    }
+    header h1 { font-size: 2.2rem; margin-bottom: 8px; }
+    header p { font-size: 1.1rem; opacity: 0.9; }
+    .badge {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 600;
+      padding: 6px 16px;
+      border-radius: 999px;
+      margin-top: 14px;
+      font-size: 0.9rem;
+    }
+    section { padding: 28px 32px; }
+    section h2 {
+      color: var(--primary);
+      font-size: 1.3rem;
+      margin-bottom: 12px;
+      border-bottom: 2px solid var(--accent);
+      display: inline-block;
+      padding-bottom: 4px;
+    }
+    ul { list-style: none; }
+    ul li {
+      padding: 6px 0 6px 28px;
+      position: relative;
+    }
+    ul li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 700;
+    }
+    .details {
+      background: var(--bg);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-top: 8px;
+    }
+    .details p { margin: 4px 0; }
+    .contact {
+      text-align: center;
+      background: var(--primary);
+      color: #fff;
+      padding: 28px;
+    }
+    .contact a { color: #fff; font-weight: 700; }
+    .rate { font-size: 1.4rem; font-weight: 700; color: var(--accent); }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #888;
+      padding: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="flyer">
+    <header>
+      <h1>Babysitting by Ashton</h1>
+      <p>Reliable, caring childcare in Charlestown, MA</p>
+      <span class="badge">CPR &amp; First Aid Certified</span>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Hi! I'm Ashton, a friendly and dependable babysitter serving families
+        around Charlestown, MA. I love keeping kids safe, engaged, and happy —
+        whether that's craft time, homework help, outdoor play, or a calm
+        bedtime routine. Parents can relax knowing their little ones are in
+        great hands.
+      </p>
+    </section>
+
+    <section>
+      <h2>What I Offer</h2>
+      <ul>
+        <li>Experience with infants, toddlers, and school-age children</li>
+        <li>Daytime, evening, weekend, and date-night availability</li>
+        <li>Meal prep, bath &amp; bedtime routines</li>
+        <li>Homework help and engaging activities</li>
+        <li>Non-smoker with reliable transportation</li>
+        <li>References available on request</li>
+        <li>Available for remote / virtual sessions (homework help &amp; check-ins) when needed</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Details</h2>
+      <div class="details">
+        <p><strong>Rate:</strong> <span class="rate">$XX / hour</span></p>
+        <p><strong>Availability:</strong> Weekdays, evenings &amp; weekends</p>
+        <p><strong>Area served:</strong> Charlestown, MA &amp; nearby Boston neighborhoods</p>
+      </div>
+    </section>
+
+    <div class="contact">
+      <h2 style="color:#fff; border-color:var(--accent);">Get in Touch</h2>
+      <p>📞 Call or text: <a href="tel:+10000000000">(000) 000-0000</a></p>
+      <p>✉️ Email: <a href="mailto:ashton@example.com">ashton@example.com</a></p>
+    </div>
+
+    <footer>
+      Please verify references and certifications. Meet in a public place for first introductions.
+    </footer>
+  </div>
+</body>
+</html>
